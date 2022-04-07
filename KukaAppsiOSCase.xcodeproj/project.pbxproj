@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		2BE66C5D27FF5C18005AC7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C5C27FF5C18005AC7A8 /* AppDelegate.swift */; };
 		2BE66C5F27FF5C18005AC7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C5E27FF5C18005AC7A8 /* SceneDelegate.swift */; };
-		2BE66C6127FF5C18005AC7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C6027FF5C18005AC7A8 /* ViewController.swift */; };
+		2BE66C6127FF5C18005AC7A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C6027FF5C18005AC7A8 /* HomeViewController.swift */; };
 		2BE66C6427FF5C18005AC7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE66C6227FF5C18005AC7A8 /* Main.storyboard */; };
 		2BE66C6727FF5C18005AC7A8 /* KukaAppsiOSCase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C6527FF5C18005AC7A8 /* KukaAppsiOSCase.xcdatamodeld */; };
 		2BE66C6927FF5C19005AC7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE66C6827FF5C19005AC7A8 /* Assets.xcassets */; };
 		2BE66C6C27FF5C19005AC7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE66C6A27FF5C19005AC7A8 /* LaunchScreen.storyboard */; };
+		2BE66C7927FF5D50005AC7A8 /* FormulaPilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C7827FF5D50005AC7A8 /* FormulaPilot.swift */; };
+		2BE66C7B27FF5D72005AC7A8 /* PilotInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C7A27FF5D71005AC7A8 /* PilotInfo.swift */; };
+		2BE66C7E27FF5DE5005AC7A8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C7D27FF5DE5005AC7A8 /* NetworkService.swift */; };
+		2BE66C8027FF6F21005AC7A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C7F27FF6F21005AC7A8 /* HomeViewModel.swift */; };
+		2BE66C8227FF6F35005AC7A8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C8127FF6F34005AC7A8 /* DetailViewModel.swift */; };
+		2BE66C8627FF752B005AC7A8 /* PilotsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C8427FF752B005AC7A8 /* PilotsCustomCell.swift */; };
+		2BE66C8727FF752B005AC7A8 /* PilotsCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE66C8527FF752B005AC7A8 /* PilotsCustomCell.xib */; };
+		2BE66C8927FF8B15005AC7A8 /* PilotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C8827FF8B15005AC7A8 /* PilotDetailViewController.swift */; };
+		2BE66C8C27FF9971005AC7A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE66C8B27FF9971005AC7A8 /* Extensions.swift */; };
+		DBD24B19E49C15A423E2508F /* Pods_KukaAppsiOSCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0625B0689456E51192B0C /* Pods_KukaAppsiOSCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1693DECB2FAAA88371366058 /* Pods-KukaAppsiOSCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KukaAppsiOSCase.release.xcconfig"; path = "Target Support Files/Pods-KukaAppsiOSCase/Pods-KukaAppsiOSCase.release.xcconfig"; sourceTree = "<group>"; };
 		2BE66C5927FF5C18005AC7A8 /* KukaAppsiOSCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KukaAppsiOSCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE66C5C27FF5C18005AC7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE66C5E27FF5C18005AC7A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BE66C6027FF5C18005AC7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BE66C6027FF5C18005AC7A8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2BE66C6327FF5C18005AC7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BE66C6627FF5C18005AC7A8 /* KukaAppsiOSCase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KukaAppsiOSCase.xcdatamodel; sourceTree = "<group>"; };
 		2BE66C6827FF5C19005AC7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE66C6B27FF5C19005AC7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE66C6D27FF5C19005AC7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE66C7827FF5D50005AC7A8 /* FormulaPilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaPilot.swift; sourceTree = "<group>"; };
+		2BE66C7A27FF5D71005AC7A8 /* PilotInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotInfo.swift; sourceTree = "<group>"; };
+		2BE66C7D27FF5DE5005AC7A8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2BE66C7F27FF6F21005AC7A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2BE66C8127FF6F34005AC7A8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		2BE66C8427FF752B005AC7A8 /* PilotsCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotsCustomCell.swift; sourceTree = "<group>"; };
+		2BE66C8527FF752B005AC7A8 /* PilotsCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PilotsCustomCell.xib; sourceTree = "<group>"; };
+		2BE66C8827FF8B15005AC7A8 /* PilotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotDetailViewController.swift; sourceTree = "<group>"; };
+		2BE66C8B27FF9971005AC7A8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CFCDA2E2E781C9E9AC49B050 /* Pods-KukaAppsiOSCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KukaAppsiOSCase.debug.xcconfig"; path = "Target Support Files/Pods-KukaAppsiOSCase/Pods-KukaAppsiOSCase.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA0625B0689456E51192B0C /* Pods_KukaAppsiOSCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KukaAppsiOSCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD24B19E49C15A423E2508F /* Pods_KukaAppsiOSCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2071CB554FF4CF32037D12AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0625B0689456E51192B0C /* Pods_KukaAppsiOSCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2BE66C5027FF5C18005AC7A8 = {
 			isa = PBXGroup;
 			children = (
 				2BE66C5B27FF5C18005AC7A8 /* KukaAppsiOSCase */,
 				2BE66C5A27FF5C18005AC7A8 /* Products */,
+				C5E36278F81FCFC140A3BC35 /* Pods */,
+				2071CB554FF4CF32037D12AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +91,90 @@
 		2BE66C5B27FF5C18005AC7A8 /* KukaAppsiOSCase */ = {
 			isa = PBXGroup;
 			children = (
-				2BE66C5C27FF5C18005AC7A8 /* AppDelegate.swift */,
-				2BE66C5E27FF5C18005AC7A8 /* SceneDelegate.swift */,
-				2BE66C6027FF5C18005AC7A8 /* ViewController.swift */,
+				2BE66C8A27FF9956005AC7A8 /* Utils */,
+				2BE66C7727FF5CA4005AC7A8 /* Core */,
+				2BE66C8327FF74FD005AC7A8 /* Cells */,
+				2BE66C7527FF5C8B005AC7A8 /* ViewControllers */,
+				2BE66C7427FF5C7B005AC7A8 /* ViewModels */,
+				2BE66C7C27FF5DD3005AC7A8 /* Service */,
+				2BE66C7327FF5C5D005AC7A8 /* Models */,
 				2BE66C6227FF5C18005AC7A8 /* Main.storyboard */,
-				2BE66C6827FF5C19005AC7A8 /* Assets.xcassets */,
 				2BE66C6A27FF5C19005AC7A8 /* LaunchScreen.storyboard */,
-				2BE66C6D27FF5C19005AC7A8 /* Info.plist */,
 				2BE66C6527FF5C18005AC7A8 /* KukaAppsiOSCase.xcdatamodeld */,
+				2BE66C6D27FF5C19005AC7A8 /* Info.plist */,
 			);
 			path = KukaAppsiOSCase;
+			sourceTree = "<group>";
+		};
+		2BE66C7327FF5C5D005AC7A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C7827FF5D50005AC7A8 /* FormulaPilot.swift */,
+				2BE66C7A27FF5D71005AC7A8 /* PilotInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BE66C7427FF5C7B005AC7A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C7F27FF6F21005AC7A8 /* HomeViewModel.swift */,
+				2BE66C8127FF6F34005AC7A8 /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2BE66C7527FF5C8B005AC7A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C6027FF5C18005AC7A8 /* HomeViewController.swift */,
+				2BE66C8827FF8B15005AC7A8 /* PilotDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BE66C7727FF5CA4005AC7A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C5C27FF5C18005AC7A8 /* AppDelegate.swift */,
+				2BE66C6827FF5C19005AC7A8 /* Assets.xcassets */,
+				2BE66C5E27FF5C18005AC7A8 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2BE66C7C27FF5DD3005AC7A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C7D27FF5DE5005AC7A8 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2BE66C8327FF74FD005AC7A8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C8427FF752B005AC7A8 /* PilotsCustomCell.swift */,
+				2BE66C8527FF752B005AC7A8 /* PilotsCustomCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2BE66C8A27FF9956005AC7A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2BE66C8B27FF9971005AC7A8 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C5E36278F81FCFC140A3BC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFCDA2E2E781C9E9AC49B050 /* Pods-KukaAppsiOSCase.debug.xcconfig */,
+				1693DECB2FAAA88371366058 /* Pods-KukaAppsiOSCase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BE66C7027FF5C19005AC7A8 /* Build configuration list for PBXNativeTarget "KukaAppsiOSCase" */;
 			buildPhases = (
+				B897B00B8319444953235A2F /* [CP] Check Pods Manifest.lock */,
 				2BE66C5527FF5C18005AC7A8 /* Sources */,
 				2BE66C5627FF5C18005AC7A8 /* Frameworks */,
 				2BE66C5727FF5C18005AC7A8 /* Resources */,
+				9C55225C287B9FBA3862B08F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +240,71 @@
 				2BE66C6C27FF5C19005AC7A8 /* LaunchScreen.storyboard in Resources */,
 				2BE66C6927FF5C19005AC7A8 /* Assets.xcassets in Resources */,
 				2BE66C6427FF5C18005AC7A8 /* Main.storyboard in Resources */,
+				2BE66C8727FF752B005AC7A8 /* PilotsCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C55225C287B9FBA3862B08F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KukaAppsiOSCase/Pods-KukaAppsiOSCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KukaAppsiOSCase/Pods-KukaAppsiOSCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KukaAppsiOSCase/Pods-KukaAppsiOSCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B897B00B8319444953235A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KukaAppsiOSCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BE66C5527FF5C18005AC7A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE66C6127FF5C18005AC7A8 /* ViewController.swift in Sources */,
+				2BE66C7927FF5D50005AC7A8 /* FormulaPilot.swift in Sources */,
+				2BE66C7B27FF5D72005AC7A8 /* PilotInfo.swift in Sources */,
+				2BE66C6127FF5C18005AC7A8 /* HomeViewController.swift in Sources */,
+				2BE66C8627FF752B005AC7A8 /* PilotsCustomCell.swift in Sources */,
+				2BE66C8027FF6F21005AC7A8 /* HomeViewModel.swift in Sources */,
+				2BE66C8227FF6F35005AC7A8 /* DetailViewModel.swift in Sources */,
 				2BE66C5D27FF5C18005AC7A8 /* AppDelegate.swift in Sources */,
+				2BE66C8C27FF9971005AC7A8 /* Extensions.swift in Sources */,
 				2BE66C5F27FF5C18005AC7A8 /* SceneDelegate.swift in Sources */,
 				2BE66C6727FF5C18005AC7A8 /* KukaAppsiOSCase.xcdatamodeld in Sources */,
+				2BE66C8927FF8B15005AC7A8 /* PilotDetailViewController.swift in Sources */,
+				2BE66C7E27FF5DE5005AC7A8 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +448,7 @@
 		};
 		2BE66C7127FF5C19005AC7A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCDA2E2E781C9E9AC49B050 /* Pods-KukaAppsiOSCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,8 +460,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +479,7 @@
 		};
 		2BE66C7227FF5C19005AC7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1693DECB2FAAA88371366058 /* Pods-KukaAppsiOSCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,8 +491,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
