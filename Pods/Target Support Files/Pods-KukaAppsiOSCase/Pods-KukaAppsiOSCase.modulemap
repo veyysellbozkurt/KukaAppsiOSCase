@@ -1,0 +1,6 @@
+framework module Pods_KukaAppsiOSCase {
+  umbrella header "Pods-KukaAppsiOSCase-umbrella.h"
+
+  export *
+  module * { export * }
+}
